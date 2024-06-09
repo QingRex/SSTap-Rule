@@ -9,7 +9,7 @@ os.makedirs(output_folder, exist_ok=True)
 # 自定义的Dumper类
 class SingleQuotedDumper(yaml.SafeDumper):
     def represent_scalar(self, tag, value, style=None):
-        if tag == 'tag:yaml.org,2002:str' and not value.startswith("'") and not value.endswith("'"):
+        if tag == 'tag:yaml.org,2002:str':
             return super().represent_scalar(tag, value, style="'")
         return super().represent_scalar(tag, value, style)
 
@@ -25,10 +25,10 @@ for filename in os.listdir(input_folder):
         output_path = os.path.join(output_folder, new_filename)
 
         with open(output_path, 'w') as outfile:
-            # 使用自定义的SingleQuotedDumper类将字典 {'payload': payload} 写入文件
             yaml.dump({'payload': payload}, outfile, default_flow_style=False, allow_unicode=True, Dumper=SingleQuotedDumper)
 
         print(f"Converted {input_path} to {output_path}")
 
 print("Rule conversion completed.")
+
 
