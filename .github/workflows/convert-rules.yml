@@ -3,7 +3,7 @@ name: Convert Rules
 on:
   push:
     branches:
-      - main
+      - master
   watch:
     types: [star]
 
@@ -34,4 +34,4 @@ jobs:
         git commit -m "Convert rules to new format"
         git push origin main
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.TOKEN }}
