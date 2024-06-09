@@ -20,8 +20,10 @@ for filename in os.listdir(input_folder):
         new_filename = f"{os.path.splitext(filename)[0]}.txt"
         output_path = os.path.join(output_folder, new_filename)
 
-        # 将转换后的规则写入新的文件
+        # 将转换后的规则写入新的文件，并确保IP地址用引号包围
         with open(output_path, 'w') as outfile:
-            yaml.dump({'payload': payload}, outfile, default_flow_style=False)
+            yaml.dump({'payload': payload}, outfile, default_flow_style=False, allow_unicode=True, Dumper=yaml.SafeDumper)
+
+        print(f"Converted {input_path} to {output_path}")
 
 print("Rule conversion completed.")
