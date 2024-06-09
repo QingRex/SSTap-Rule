@@ -36,10 +36,11 @@ for filename in os.listdir(input_folder):
         with open(output_path, 'w') as outfile:
             outfile.write('payload:\n')
             for item in payload:
-                outfile.write(f"  - '{item}'\n")
+                outfile.write(f"  - {item}\n")
 
         # 输出转换文件的信息到控制台
         print(f"Converted {input_path} to {output_path}")
 
 # 输出转换完成的信息到控制台
 print("Rule conversion completed.")
+
