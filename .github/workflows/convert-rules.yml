@@ -26,12 +26,18 @@ jobs:
     - name: Convert rules
       run: python convert_rules.py
 
+    - name: Display current directory and list files
+      run: |
+        pwd
+        ls -al
+        ls -al converted_rules
+
     - name: Commit and push changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add converted_rules/*.txt
-        git commit -m "Convert rules to new format"
-        git push origin matser
+        git commit -m "Convert rules to new format" || echo "Nothing to commit"
+        git push origin master || echo "Nothing to push"
       env:
         GITHUB_TOKEN: ${{ secrets.TOKEN }}
