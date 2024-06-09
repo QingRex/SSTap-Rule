@@ -1,13 +1,13 @@
 payload:
-  - 'IP-CIDR,103.10.124.0/24,no-resolve'
-  - 'IP-CIDR,103.10.124.255/32,no-resolve'
-  - 'IP-CIDR,153.254.86.0/24,no-resolve'
-  - 'IP-CIDR,153.254.86.255/32,no-resolve'
-  - 'IP-CIDR,155.133.245.0/24,no-resolve'
-  - 'IP-CIDR,155.133.245.255/32,no-resolve'
-  - 'IP-CIDR,160.249.33.79/32,no-resolve'
-  - 'IP-CIDR,162.254.195.0/24,no-resolve'
-  - 'IP-CIDR,162.254.195.255/32,no-resolve'
-  - 'IP-CIDR,205.196.6.0/24,no-resolve'
-  - 'IP-CIDR,205.196.6.255/32,no-resolve'
-  - 'IP-CIDR,219.135.99.208/32,no-resolve'
+  - IP-CIDR,103.10.124.0/24,no-resolve
+  - IP-CIDR,103.10.124.255/32,no-resolve
+  - IP-CIDR,153.254.86.0/24,no-resolve
+  - IP-CIDR,153.254.86.255/32,no-resolve
+  - IP-CIDR,155.133.245.0/24,no-resolve
+  - IP-CIDR,155.133.245.255/32,no-resolve
+  - IP-CIDR,160.249.33.79/32,no-resolve
+  - IP-CIDR,162.254.195.0/24,no-resolve
+  - IP-CIDR,162.254.195.255/32,no-resolve
+  - IP-CIDR,205.196.6.0/24,no-resolve
+  - IP-CIDR,205.196.6.255/32,no-resolve
+  - IP-CIDR,219.135.99.208/32,no-resolve

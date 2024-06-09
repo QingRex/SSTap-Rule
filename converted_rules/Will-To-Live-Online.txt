@@ -1,11 +1,11 @@
 payload:
-  - 'IP-CIDR,18.182.7.0/24,no-resolve'
-  - 'IP-CIDR,46.229.171.0/24,no-resolve'
-  - 'IP-CIDR,54.252.202.0/24,no-resolve'
-  - 'IP-CIDR,88.208.3.0/24,no-resolve'
-  - 'IP-CIDR,95.213.168.0/24,no-resolve'
-  - 'IP-CIDR,103.203.50.0/24,no-resolve'
-  - 'IP-CIDR,180.92.194.0/24,no-resolve'
-  - 'IP-CIDR,185.242.4.0/24,no-resolve'
-  - 'IP-CIDR,188.127.229.0/24,no-resolve'
-  - 'IP-CIDR,188.127.239.0/24,no-resolve'
+  - IP-CIDR,18.182.7.0/24,no-resolve
+  - IP-CIDR,46.229.171.0/24,no-resolve
+  - IP-CIDR,54.252.202.0/24,no-resolve
+  - IP-CIDR,88.208.3.0/24,no-resolve
+  - IP-CIDR,95.213.168.0/24,no-resolve
+  - IP-CIDR,103.203.50.0/24,no-resolve
+  - IP-CIDR,180.92.194.0/24,no-resolve
+  - IP-CIDR,185.242.4.0/24,no-resolve
+  - IP-CIDR,188.127.229.0/24,no-resolve
+  - IP-CIDR,188.127.239.0/24,no-resolve

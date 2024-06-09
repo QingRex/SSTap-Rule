@@ -1,8 +1,8 @@
 payload:
-  - 'IP-CIDR,5.63.132.0/24,no-resolve'
-  - 'IP-CIDR,37.29.19.0/24,no-resolve'
-  - 'IP-CIDR,109.105.133.0/24,no-resolve'
-  - 'IP-CIDR,109.105.138.0/24,no-resolve'
-  - 'IP-CIDR,165.254.12.0/24,no-resolve'
-  - 'IP-CIDR,192.204.26.0/24,no-resolve'
-  - 'IP-CIDR,205.197.140.0/24,no-resolve'
+  - IP-CIDR,5.63.132.0/24,no-resolve
+  - IP-CIDR,37.29.19.0/24,no-resolve
+  - IP-CIDR,109.105.133.0/24,no-resolve
+  - IP-CIDR,109.105.138.0/24,no-resolve
+  - IP-CIDR,165.254.12.0/24,no-resolve
+  - IP-CIDR,192.204.26.0/24,no-resolve
+  - IP-CIDR,205.197.140.0/24,no-resolve

@@ -1,4 +1,4 @@
 payload:
-  - 'IP-CIDR,14.18.251.42/32,no-resolve'
-  - 'IP-CIDR,194.187.19.0/24,no-resolve'
-  - 'IP-CIDR,210.64.194.0/24,no-resolve'
+  - IP-CIDR,14.18.251.42/32,no-resolve
+  - IP-CIDR,194.187.19.0/24,no-resolve
+  - IP-CIDR,210.64.194.0/24,no-resolve

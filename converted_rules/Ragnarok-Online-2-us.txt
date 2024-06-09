@@ -1,5 +1,5 @@
 payload:
-  - 'IP-CIDR,128.241.93.0/24,no-resolve'
-  - 'IP-CIDR,128.241.94.0/24,no-resolve'
-  - 'IP-CIDR,162.14.10.107/32,no-resolve'
-  - 'IP-CIDR,208.64.201.0/24,no-resolve'
+  - IP-CIDR,128.241.93.0/24,no-resolve
+  - IP-CIDR,128.241.94.0/24,no-resolve
+  - IP-CIDR,162.14.10.107/32,no-resolve
+  - IP-CIDR,208.64.201.0/24,no-resolve

@@ -1,6 +1,6 @@
 payload:
-  - 'IP-CIDR,﻿#world of warships-EU,战舰世界欧服,0,0,1,0,1,0,By-ip_crawl_tool,no-resolve'
-  - 'IP-CIDR,92.223.20.0/24,no-resolve'
-  - 'IP-CIDR,92.223.19.0/24,no-resolve'
-  - 'IP-CIDR,185.12.242.0/24,no-resolve'
-  - 'IP-CIDR,92.223.23.0/24,no-resolve'
+  - IP-CIDR,﻿#world of warships-EU,战舰世界欧服,0,0,1,0,1,0,By-ip_crawl_tool,no-resolve
+  - IP-CIDR,92.223.20.0/24,no-resolve
+  - IP-CIDR,92.223.19.0/24,no-resolve
+  - IP-CIDR,185.12.242.0/24,no-resolve
+  - IP-CIDR,92.223.23.0/24,no-resolve
