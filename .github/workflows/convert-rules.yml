@@ -32,6 +32,6 @@ jobs:
         git config --local user.name "GitHub Action"
         git add converted_rules/*.txt
         git commit -m "Convert rules to new format"
-        git push origin main
+        git push origin matser
       env:
         GITHUB_TOKEN: ${{ secrets.TOKEN }}
